@@ -1,0 +1,126 @@
+/* ====== CUSTOM RESET ====== */
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body, div, p, ul, ol, li, h1, h2, h3, h4, h5, h6, label, form, hr, fieldset, menu, nav, audio, canvas, video {
+    vertical-align: baseline;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+article, aside, caption, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display: block;
+}
+audio, canvas, video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+img {
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+hr {
+    background-color: #444;
+    margin-top: -1px;
+    height: 1px;
+}
+abbr {
+    border-bottom: 1px dotted;
+}
+strong, b {
+    font-weight: bold;
+}
+em, i {
+    font-style: italic;
+}
+sub, sup {
+    position: relative;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+textarea {
+    max-width: 100%;
+    resize: vertical;
+}
+input[type="submit"], input[type="button"], input[type="reset"], button, label {
+    cursor: pointer;
+}
+p a {
+    border-bottom: 1px dotted;
+}
+p a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+p img {
+    max-width: 100%;
+}
+::-moz-selection, ::selection {
+    text-shadow: none;
+    background: #0AF;
+}
+/* ====== TYPE & LINKS ====== */
+
+label, form, input, button, textarea, fieldset {
+    vertical-align: text-top;
+    font-family: inherit;
+    font-size: inherit;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 100%;
+}
+body {
+    line-height: 1;
+    font-size: 16px;
+    font-family: arial;
+}
+h1, h2 {
+    font-weight: 100;
+}
+h3, h4, h5, h6 {
+    font-weight: normal;
+}
+small {
+    font-size: .5em;
+}
+sub, sup {
+    vertical-align: baseline;
+    line-height: 0;
+    font-size: 75%;
+}
+code, pre {
+    font-family: monospace, serif;
+}
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+p {
+    line-height: 1.35;
+}
+/* ====== CLEAN / CLEAR ====== */
